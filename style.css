@@ -83,7 +83,7 @@ grid-row: 1 / span 1;
 text-decoration: underline;
 }
 .gallery{
-    min-height: 600px;
+    min-height: 500px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -93,8 +93,13 @@ text-decoration: underline;
 .gallery > img{
     border: 10px #080808 solid;
     margin: 10px;
-    width: 300px;
+    width: 400px;
+    
 }
+.gallery > img :hover .overplay{
+opacity: 1;
+}
+
 footer{
 background-color: black;
 color: white;
